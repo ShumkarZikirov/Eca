@@ -1,0 +1,152 @@
+.aosText {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+.title {
+	font-size: 26px;
+	color: #393184;
+	margin: 50px 0;
+	font-weight: 600;
+}
+.info {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.step {
+	width: 200px;
+	position: relative;
+	margin-bottom: 20px;
+}
+.step img {
+	width: 100%;
+}
+.stepTitle {
+	position: absolute;
+	top: 48%;
+	left: 15%;
+	font-size: 24px;
+	color: #393184;
+}
+.left,
+.right {
+	width: 40%;
+}
+.eca {
+	color: #393184;
+	font-weight: 600;
+}
+.list {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 7px;
+}
+.list li {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	font-size: 18px;
+}
+.list li span {
+	color: #ef7f1a;
+}
+.block {
+	display: flex;
+	flex-direction: column;
+	gap: 101px;
+}
+@media (max-width: 920px) {
+	.title {
+		font-size: 26px;
+		text-align: center;
+	}
+	.info {
+		flex-direction: column;
+		gap: 40px;
+	}
+	.step {
+		width: 50%;
+		position: relative;
+		margin-bottom: 20px;
+	}
+	.step img {
+		width: 60%;
+	}
+	.stepTitle {
+		font-size: 24px;
+		top: 48%;
+		left: 10%;
+	}
+	.left,
+	.right {
+		width: 90%;
+	}
+	.text {
+		font-size: 20px;
+		line-height: 1.4;
+		margin-left: 30px;
+	}
+	.list {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 7px;
+	}
+	.list li {
+		display: flex;
+		align-items: center;
+		margin-left: 30px;
+		gap: 5px;
+		font-size: 20px;
+	}
+	.list li span {
+		color: #ef7f1a;
+	}
+	.block {
+		display: flex;
+		flex-direction: column;
+		gap: 40px;
+	}
+}
+@media (max-width: 500px) {
+	.title {
+		text-align: center;
+	}
+	.info {
+		flex-direction: column;
+		justify-content: flex-start;
+		gap: 40px;
+	}
+	.step {
+		width: 200px;
+		margin-bottom: 15px;
+	}
+	.stepTitle {
+		top: 40%;
+	}
+	.left,
+	.right {
+		width: 90%;
+	}
+	.left p,
+	.right p {
+		width: 90%;
+		margin: auto;
+		line-height: 1.4;
+	}
+	.list {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 7px;
+	}
+	.list li {
+		width: 90%;
+		margin: auto;
+	}
+	.block {
+		gap: 40px;
+	}
+}

@@ -1,0 +1,21 @@
+.serviceNav {
+    display: grid;
+    grid-gap:10px;
+}
+.wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+@media (max-width: 500px){
+    .serviceNav {
+        justify-content: center;
+    }
+}
+
+@media (max-width:920px){
+    .serviceNav{
+        justify-content: center;
+    }
+}

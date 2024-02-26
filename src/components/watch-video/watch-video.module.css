@@ -1,0 +1,91 @@
+.watchVideo {
+  height: 600px;
+  position: relative;
+}
+.video {
+  width: 100% !important;
+  height: 100%;
+  object-fit: cover;
+}
+.watchVideo::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.text {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -30%);
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 31px;
+  transition: 2s;
+  color: #3c0f78;
+}
+.text h2 {
+  text-align: center;
+}
+.icon {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: 2s;
+}
+.iconPlay {
+  color: #3c0f78;
+  transition: 2s;
+  transform: scale(3.5);
+}
+
+.pause, .videoText {
+  opacity: 0;
+}
+
+.pause:hover {
+  opacity: 1;
+}
+@media (max-width: 920px) {
+  .watchVideo{
+    width: 100%;
+    height: 600px;
+  }
+}
+
+@media (max-width: 500px) {
+  .watchVideo {
+    width: 100%;
+    height: 250px;
+  }
+  .text {
+    top: 25%;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+  }
+  .iconPlay {
+    transform: scale(1.3);
+  }
+}
+
+@media (max-width: 321px) {
+  .watchVideo {
+    width: 100%;
+    height: 200px;
+  }
+
+  .text {
+    top: 25%;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .iconPlay {
+    transform: scale(1);
+  }
+}
+
+

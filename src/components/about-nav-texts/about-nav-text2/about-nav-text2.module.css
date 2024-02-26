@@ -1,0 +1,55 @@
+.aboutNavText {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+.title {
+	font-size: 26px;
+	color: #ef7f1a;
+	font-weight: 600;
+}
+.stepTitle {
+	font-size: 20px;
+	color: #393184;
+	font-weight: 600;
+}
+h1,
+h4,
+h5,
+p {
+	margin: 0;
+}
+.block {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.blockTitle {
+	font-size: 20px;
+	font-weight: 600;
+}
+.list {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.list li {
+	font-size: 20px;
+	color: #424242;
+	display: flex;
+	align-items: center;
+}
+.list li span {
+	color: #ef7f1a;
+	margin-right: 5px;
+}
+@media (max-width:500px){
+	.navText {
+		display: flex;
+		flex-direction: column;
+		gap: 30px;
+	}
+	.stepTitle {
+		font-size: 20px;
+	}
+}

@@ -1,0 +1,30 @@
+.contactUs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 31px;
+  color: #393184;
+  margin-bottom: 30px;
+}
+.textarea::placeholder {
+  font-size: 20px;
+  line-height: 28px;
+  color: #888888;
+}
+.textarea {
+  padding-left: 10px;
+  font-size: 20px;
+  line-height: 28px;
+}

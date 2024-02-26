@@ -1,0 +1,82 @@
+.personCard {
+    max-width: 300px;
+    height: 600px;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    overflow: hidden;
+    padding-bottom: 24px;
+}
+
+.image {
+    width: 300px;
+    height: 450px;
+    overflow: hidden;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.personCard .profecial {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000;
+    margin-top: 10px;
+}
+
+.personCard .name {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #393184;
+    margin-top: 19px;
+    margin-bottom: 22px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+@media (max-width: 500px) {
+    .personCard {
+        width: 170px;
+        height: 320px;
+    }
+
+    .image {
+        width: 170px;
+        height: 234px;
+    }
+
+    .personCard .profecial {
+        font-size: 9.06667px;
+        line-height: 11px;
+        margin-top: 5px;
+    }
+
+    .social {
+        gap: 5px;
+    }
+
+    .social img {
+        width: 12px;
+        height: 12px;
+    }
+
+    .personCard .name {
+        font-size: 13.6px;
+        line-height: 16px;
+        margin-top: 8px;
+
+    }
+}

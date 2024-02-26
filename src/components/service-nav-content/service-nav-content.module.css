@@ -1,0 +1,27 @@
+.serviceNavContent {
+  display: grid;
+  max-width: 854px;
+  gap: 20px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.image {
+  max-width: 854px;
+  width: 100%;
+  max-height: 342px;
+}
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.description {
+  font-size: 20px;
+  line-height: 28px;
+  color: #424242;
+  margin:30px 0;
+}
+

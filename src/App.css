@@ -1,0 +1,55 @@
+@import './assets/style/fonts.css';
+
+body {
+  margin: 0;
+  font-family: 'Raleway';
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+ul {
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: transparent;
+}
+
+.swiper {
+  z-index: 4;
+}
+
+.no-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.no-btn button {
+  border: none;
+  outline: none;
+  padding: 8px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.no {
+  color: #727A7E;
+  text-align: center;
+  margin: 50px 0;
+}
+
+

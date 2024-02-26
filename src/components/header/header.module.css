@@ -1,0 +1,76 @@
+.header {
+  padding-top: 13px;
+  padding-bottom: 17px;
+  position: relative;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.menu {
+  display: none;
+}
+.languages span {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+}
+.ru {
+  margin-right: 22px;
+}
+.ru, .en {
+  cursor: pointer;
+}
+span.active {
+  color: #685BF1;
+}
+
+@media (max-width: 920px) {
+  .header {
+    padding-bottom: 0px;
+  }
+  .box {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+  .burger {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .menu {
+    display: block;
+  }
+  .logo {
+    width: 82px;
+    height: 45px;
+    margin-top: 10px;
+  }
+  .logo img {
+    width: 100%;
+  }
+  .language {
+    display: none;
+  }
+}
+
+

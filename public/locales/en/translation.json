@@ -1,0 +1,395 @@
+{
+  "lang": {
+    "number": "1"
+  },
+  "no" : "sorry no such projects",
+  "update" : "update",
+  "new-archive": "News Archive",
+  "eca": "ECA",
+  "year": "Year",
+  "sector": "Sector",
+  "search": "Search",
+  "nav": {
+    "home": "Home",
+    "aboutUs": "About us",
+    "services": "Services",
+    "projects": "Projects",
+    "ourClients": "Our Clients",
+    "news": "News",
+    "contacts": "Contacts",
+    "vacancies": "Vacancies"
+  },
+  "about": {
+    "part1": "What we do",
+    "part2": {
+      "1": "Mission, Vision &",
+      "2": "Values"
+    },
+    "part3": "Our Team",
+    "part4": "Our Advantages",
+    "part5": "Associated Members",
+    "part6": "Awards and Recommendations",
+    "part7": "Vacancies"
+  },
+  "animation_texts": {
+    "part1": "We share our experience for new achievements and development",
+    "part2": "With us you create your confident future",
+    "part3": "Your tomorrow we make it now"
+  },
+  "project-sector": {
+    "part1": "International Organizations",
+    "part2": "Public Sector",
+    "part3": "Private Sector"
+  },
+  "footer": [
+    {
+      "id": "1",
+      "title": "Home",
+      "link": "/"
+    },
+    {
+      "id": "2",
+      "title": "About us",
+      "link": "/about-us"
+    },
+    {
+      "id": "3",
+      "title": "Services",
+      "link": "/services"
+    },
+    {
+      "id": "4",
+      "title": "Projects",
+      "link": "/project"
+    },
+    {
+      "id": "5",
+      "title": "Our Clients",
+      "link": "/our-clients"
+    },
+    {
+      "id": "6",
+      "title": "News",
+      "link": "/news"
+    },
+    {
+      "id": "7",
+      "title": "Vacancies",
+      "link": "/vacancies"
+    },
+    {
+      "id": "8",
+      "title": "Contacts",
+      "link": "/contact-us"
+    }
+  ],
+  "button_text": {
+    "set_up": "Set up an appointment",
+    "learne_more": "Learn more",
+    "read_more": "Read more",
+    "send_message": "Send message",
+    "eca": "See Associated ECA Experts",
+    "hide_text": "Hide text",
+    "upload":"UPLOAD",
+    "submit":"SUBMIT",
+    "loading":"loading..."
+  },
+  "export_of_central_asia": {
+    "title": "Experts of Central Asia",
+    "description": "provides its expertise through a team of highly motivated and dedicated professional experts respected in the following fields:"
+  },
+  "slide_card1": {
+    "card1": "Economic Development",
+    "card2": "SME Development",
+    "card3": "Trade",
+    "card4": "Tourism",
+    "card5": "IT",
+    "card6": "Agriculture and Rural Development"
+  },
+  "slide_card2": {
+    "card1": "Education",
+    "card2": "Social issues",
+    "card3": "Energy",
+    "card4": "Law and Judiciary",
+    "card5": "Environment",
+    "card6": "Infrastructure"
+  },
+  "our_team": "Our Team",
+  "our_services": "Our services",
+  "our_clients_and_partners": "Our Clients and Partners",
+  "lates_news": "Latest News",
+  "watch_video": "Watch video",
+  "description_partner": "Among our clients are Governmental Agencies, International Donor Organizations, Private Businesses and NGOs throughout the Central Asia Region.",
+  "description_lates_news": "Read our latest news about our projects, trainings and work we have done",
+  "form": {
+    "title": "Contact Us",
+    "name": "Enter Your Name",
+    "email": "Enter Your E-mail",
+    "phone": "Enter Your Phone",
+    "message": "Enter Your Message"
+  },
+  "map": {
+    "title": "Where to find us",
+    "address": "145 Panfilov str., Block A, 2nd floor, office #2 Bishkek, 720040 Kyrgyz Republic Tel: +996 312 426 651, Mob.: +996 551 974 623, +996 551 987 922"
+  },
+  "footer_bottom-text": "All rights reserved",
+  "people_card": {
+    "card1": {
+      "job": "Managing Director",
+      "name": "Talantbek T. Sakishev"
+    },
+    "card2": {
+      "job": "Finance Manager / Economist",
+      "name": "Raida Bashirova"
+    },
+    "card3": {
+      "job": "Legal Expert",
+      "name": "Edil Mamytbekov"
+    },
+    "card4": {
+      "job": "Data Analyst",
+      "name": "Aziret Sakishev"
+    },
+    "card5": {
+      "job": "Accounting expert",
+      "name": "Suriya Mirzhalalova"
+    }
+  },
+  "services_texts": {
+    "strategic": "Strategic Management",
+    "financial": "Financial Management and Accounting",
+    "legal": "Legal Services",
+    "marketing": "Marketing and Reaserch",
+    "investment": "Investment Planning",
+    "human": "Human Resource Management (HRM)",
+    "description": {
+      "part1": " provides multi-sectoral consulting services regarding Human and Institutional Capacity Development (HICD), organizational development, improvement of performance of the Governmental Agencies, Private Businesses, International Donor Organizations and NGOs in Kyrgyzstan and throughout the Central Asia Region.",
+      "part2": "renders its services through a team of highly motivated and dedicated professional experts respected in the wide range of fields."
+    }
+  },
+  "our_clients": {
+    "title": "Among our clients are Governmental Agencies, Local Governments, International Donor Organizations, Private Businesses and Non-Governmental Organizations (NGOs) in Kyrgyzstan and throughout the Central Asia."
+  },
+  "banner-texts": {
+    "banner1": {
+      "title": "Multi-sectoral management consulting"
+    },
+    "banner2" : {
+      "part1": "Strong Mission",
+      "part2": "We develop our customers – we develop ourselves!"
+    },
+    "banner4": {
+      "title": "Values",
+      "description": "We share our knowledge for mutual development and achievement of the goals."
+    },
+    "banner5": {
+      "title": "Associated ECA Experts",
+      "description": "Our database includes a large number of experts - specialists in various industries of economy and public administration as well."
+    },
+    "banner6": {
+      "title": "We Transform",
+      "list1": {
+        "part1": "Volatility",
+        "part2": "Uncertainty",
+        "part3": "Complexity",
+        "part4": "Ambiguity"
+      },
+      "list2": {
+        "part1": "Viable Solutions",
+        "part2": "Unique Approach",
+        "part3": "Client Care",
+        "part4": "Ambitious Vision"
+      }
+    }
+  },
+  "about-nav-texts": {
+    "title":"Our Advantages",
+    "part1": {
+      "title": "Strong Mission",
+      "stepTitle": "We develop our customers – we develop ourselves!",
+      "description": {
+        "text1": "highly values its employees, the greatest asset of the company, and creates conditions for its employees continuing professional development. We promote, protect and maintain professional independence, a strategic factor in the provision of quality services. We have a creative approach to providing any new services: while improving business processes and products of our valuable customers we improve business processes within our own company. Even though ",
+        "text2": "has highly qualified experts almost in every industry, we are committed to open and equal cooperation with other international consulting companies around the world that need a reliable partner in Central Asia."
+      }
+    },
+    "part2": {
+      "description": "We share our knowledge with our clients for mutual development and for achievement of their goals",
+      "block-title": "While working with clients ECA always:",
+      "list1": "Respects client's requirements and comply with the terms of confidentiality;",
+      "list2": "Without client’s permission never uses the information for its own purposes;",
+      "list3": "Is responsible for the services, knowledge and skills;",
+      "list4": "Establishes a partnership, mutual understanding and realistic expectations for the services provided;",
+      "list5": "Do not allow the possibility of conflicts of interest in their work;",
+      "list6": "Brings innovations and develops creative solutions;",
+      "list7": "Works for the success of its partners and customers;",
+      "list8": "Contributes to the prosperity of the country in which it operates."
+    },
+    "part3": {
+      "title": {
+        "part1": "Associated",
+        "part2": "Experts"
+      },
+      "text": "Our database includes a large number of experts specialists in various industries of economy and public administration as well."
+    }
+  },
+  "aos-text": {
+    "title": "Steps to Success",
+    "part1": {
+      "title": "Our Mission",
+      "description": "To assist our clients in their development through the provision of professional advice, expertise, share the knowledge and to provide the best and most suitable business solutions needed by our customers."
+    },
+    "part2": {
+      "title": "Vision",
+      "description": "To lead management consulting in Central Asia."
+    },
+    "part3": {
+      "title": "Our Philosophy",
+      "description": "The customer is first: ",
+      "description1": " is a customer-oriented company offering high-quality services that suit the clients’ needs, while respecting the best interests of each country which it operates. We offer our customers top local and international experts capable of providing high quality and proven service."
+    },
+    "part4": {
+      "title": "Our Values",
+      "description": "provides its services to clients on principles of:",
+      "list1": "competence and professionalism,",
+      "list2": "high standard of quality,",
+      "list3": "integrity, independence and objectivity."
+    }
+  },
+  "card-news": {
+    "text": "Situation with nutrition and health of women of reproductive age and children under 5 age in Batken and Jalal-Abad regions of the Kyrgyz Republic.",
+    "date": "15. January 2023",
+    "media": "Media"
+  },
+  "client-nav": [
+    {
+      "id": "1",
+      "title": "International Organizations"
+    },
+    {
+      "id": "2",
+      "title": "Public Sector"
+    },
+    {
+      "id": "3",
+      "title": "Private Sector"
+    }
+  ],
+  "people-info": {
+    "part1": {
+      "info": "Has more than 20 years of professional experience in both government agencies and private companies. Specializes in the financial and economic sphere, as well as in the field of logistics.",
+      "item-text": "Business area",
+      "list1": "Macroeconomic analysis of the business environment for various sectors of the Kyrgyz Republic;",
+      "list2": "Financial and economic analysis of companies with various forms of ownership;",
+      "list3": "Conducting functional analysis, comprehensive assessment and monitoring of the effectiveness of public administration and institutional development of organizations;",
+      "list4": "Conducting regulatory impact analysis (RIA), cost-benefit analysis;",
+      "list5": "Writing various manuals and manuals on financial management and issues on tax and non-tax payments when using subsoil in the Kyrgyz Republic.",
+      "item-text2": "Successful projects::",
+      "list6": "Functional analysis (institutional assessment) of the activity of the Ministry of Social Development of the Kyrgyz Republic in April-May 2014 within the framework of the Effective Public Administration Support Program (GGPAS, USAID) / International Resources Group (IRG);",
+      "list7": "Comprehensive assessment of the activities of the State Agency for Geology and Mineral Resources under the Government of the Kyrgyz Republic under the HICD Program of the USAID Reform Project in January-April 2013;",
+      "list8": "Functional Analysis of the Judicial System of the Kyrgyz Republic under the USAID/IDLO Program “Building the Capacity of the Judicial System of the Kyrgyz Republic” in June-September 2012;",
+      "list9": "Development of a methodological guide for writing a strategy and assistance in the development of a Strategic Plan for the Development of the Judicial System of the Kyrgyz Republic under the USAID / IDLO Program in August-November 2012. and much more."
+    },
+    "part2": {
+      "info": "Certified Management Consultant. Expert in the area of public administration, strategic planning and strategic management, conducting SWOT analysis both in governmental agencies as well as in private sector. Talantbek has a solid experience in conducting comprehensive assessment and institutional development of public organizations and corporate companies as well as experience in conducting Regulatory Impact Analysis (RIA), writing draft legislation of the Kyrgyz Republic, conducting business trainings on management and marketing etc.",
+      "item-text2":"",
+      "list1":"",
+      "list2":"",
+      "list3":"",
+      "list4":"",
+      "list5":"",
+      "list6":""
+    },
+    "part3": {
+      "info": "Edil has over 10 years of extensive experience in providing legal advisory/expertise. Currently he is a legal expert at ЕСА Consultancy in developing conducting comprehensive assessments of public agencies, strategic planning and management of governmental agencies and private sector, as well as conducting Regulatory Impact Analysis (RIA).",
+      "item-text": "Successful projects:",
+      "list1": "Assessment of communication processes in the State Personnel Service of the Kyrgyz Republic (SPC KR) and participation in the development of the Communication Strategy for the SPC KR for 2015-2017. within the framework of the Good Governance Support Program (GGPAS, USAID) / International Resources Group (IRG);",
+      "list2": "Functional analysis (institutional assessment) of the activity of the Ministry of Social Development of the Kyrgyz Republic in April-May 2014 within the framework of the Effective Public Administration Support Program (GGPAS, USAID) / International Resources Group (IRG);",
+      "list3": "In January-April 2013, as a legal expert, he successfully conducted a functional analysis and a “Comprehensive Assessment of the Activities of the State Agency for Geology and Mineral Resources under the Government of the Kyrgyz Republic” under the HICD Program of the USAID Reform Project and much more."
+    },
+    "part4": {
+      "info": "Professional experience in private sector and working with non-govermental organizations covering following professional skills:",
+      "item-text": "Financial field:",
+      "item-text2": "Data analysis field:",
+      "list1": "Developing a comprehensive financial plans for manufacturing, hospitality, education and IT industries",
+      "list2": "Financial documentation processing and designing industry related metrics",
+      "list3": "Full ownership of billing processes",
+      "list4": "Creating a data structure with relational databases",
+      "list5": "Data processing and visualization through Looker, Tableau, Excel",
+      "list6": "Data Processing"
+    },
+    "part5": {
+      "info": "Accountant at ECA. Accounting expert. Certified Accounting Practitioner – CAP",
+      "description": "Suriya has more than 20 years of professional experience in the field of economics, finance and accounting in various organizations of small, medium and large-scale businesses including large retail and wholesale chains and logistics centers. Since 2008 she is a member of the Association of Accountants and Auditors of the Kyrgyz Republic and since 2013 – a member of the Chamber of Tax Consultants of the Kyrgyz Republic.",
+      "work": "Her main competences are:",
+      "work1": "Tax administration services;",
+      "work2": "Tax optimization of accounting;",
+      "work3": "Tax lawyer on taxation of small, medium and large businesses;",
+      "work4": "Cost optimization and costing of production;",
+      "work5": "Strategic tax planning services at the stage of business registration;",
+      "work6": "Automated Accounting System 1C;",
+      "work7": "Formation of financial, tax and statistical reports."
+    }
+  },
+  "about-us-page": {
+    "title": "What we do:",
+    "strong_text": "Experts of Central Asia (ECA)",
+    "text1": "was founded in Kyrgyzstan, Bishkek in 2013. Since that time",
+    "text2": "works on the frontlines of human and socio-economic development in Kyrgyzstan and across the Central Asia. We tackle fundamental social and economic development problems caused by inefficient markets, ineffective governance, and instability. We share our knowledge with our clients for development and achievement of their goals. We also assist our clients to transform ideas into action — action into impact.",
+    "text3": "provides multi-sectoral consulting services regarding Human and Institutional Capacity Development (HICD) for Governmental Agencies, Private Businesses, International Donor Organizations and NGOs in Kyrgyzstan and throughout the Central Asia Region.",
+    "text4": "provides its expertise through a team of highly motivated and dedicated professional experts respected in the wide range of fields, such as:",
+    "list1": "Agriculture and Rural Development,",
+    "list2": "Enviromental",
+    "list3": "Social issues,",
+    "list4": "SME Development,",
+    "list5": "Education",
+    "list6": "Economic Development,",
+    "list7": "Energy,",
+    "list8": "Trade,",
+    "list9": "Law and Judiciary.",
+    "title2": "Our Team"
+  },
+  "aboutPanel":{
+    "title1":"Strong Mission",
+    "title2":"Values",
+    "title3":"Associated ECA Experts"
+  },
+  "project": {
+    "name_of_client": "Name of Client",
+    "financy": "Financing Agency",
+    "country": "Country",
+    "sector": "Sector",
+    "date": "Execution Date",
+    "project_detail": "Project Details"
+  },
+  "media_img_text": {
+    "our_service": "OUR SERVICES",
+    "our_project": "OUR PROJECTS",
+    "our_news": "OUR NEWS",
+    "contact_us": "CONTACT US",
+    "associated": "ASSOCIATED ECA MEMBERS",
+    "title":"As",
+    "title2":"expert was involved",
+    "recommendations" : "Awards & Recommendations"
+  }  ,
+  "vacancies":{
+    "title":"Vacancies (Working with ECA)",
+    "text1":"Experts of Central Asia (ECA Consultancy)",
+    "text2":"is one of the dynamically developing companies of the Central Asia with office in Bishkek, Kyrgyz Republic.",
+    "text3":"Consultancy has good experience in providing high-quality consulting services in the sphere of institutional and human capacity development of public organizations, private companies and NGO in such sectors of economy as public administration, education, energy, social development, small medium sized enterprises, finance, transport, trade, tourism, IT technologies, etc.",
+    "text4":"Consultancy renders services in providing technical assistance to the projects financed by the international organizations, such as USAID, EU, ADB, WB, GIZ, UNDP, etc. where highly qualified specialists in various areas are required.",
+    "text5":"Consultancy looks for highly qualified, skilled and highly motivated specialists in various positions for participation in the international projects realized in the countries of Central Asia. If you meet these criteria and are interested to make your contribution into development of this region please send your CV on this email address ",
+    "text6":"or you can upload your CV",
+    "text7":"below.",
+    "text8":"In this section you can also find announcements of the forthcoming tenders and brief information of demanded experts.",
+    "text9":"Please upload your CV (max attachment size - 5MB) Allowed file types: rtf, pdf, doc, docx, jpg, png",
+    "form":{
+      "text1":"First Name",
+      "text2":"Last Name",
+      "text3":"E-mail",
+      "text4":"Resume/ CV",
+      "text5":"Please enter your First Name",
+      "text6":"Please enter your Last Name",
+      "text7":"Enter Your E-mail"
+    }
+  }
+}

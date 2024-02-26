@@ -1,0 +1,78 @@
+.vacanciesPage {
+    padding-top: 80px;
+    position: relative;
+}
+
+.title {
+    text-align: center;
+    margin: 0;
+    font-size: 24px;
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-bottom: 40px;
+}
+
+.title,
+.vacanciesPage strong,
+.vacanciesPage p,
+.vacanciesPage a {
+    line-height: 32px;
+}
+
+.vacanciesPage a {
+    color: #33BEE5;
+}
+
+.title,
+.vacanciesPage strong {
+    color: #393184;
+    font-weight: 600;
+}
+
+.vacanciesPage strong {
+    font-weight: 600;
+}
+
+.vacanciesPage p,
+.vacanciesPage strong,
+.vacanciesPage a {
+    font-size: 20px;
+}
+
+.successMessage {
+    position: absolute;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    color: #393184;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.08);
+    border-radius: 30px;
+    padding: 50px;
+    top: 65%;
+    left: 60%;
+}
+
+@media (max-width: 500px) {
+    .title{
+        margin-bottom: 30px;
+    }
+    .successMessage {
+        width: 50%;
+        top: 90%;
+        left: 37%;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 32px;
+        padding: 5px;
+    }
+}
+@media(max-width: 920px) {
+    .title{
+        margin-bottom: 30px;
+    }
+}

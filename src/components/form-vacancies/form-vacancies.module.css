@@ -1,0 +1,107 @@
+.formControl {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 600px;
+}
+
+.errorMessage {
+    position: absolute;
+    width: 260px;
+    height: 70px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    top: -10%;
+    left: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #888888;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.resumeText {
+    font-size: 14px !important;
+    line-height: 16px !important;
+    color: #727A7E;
+}
+
+.input,
+.input1 {
+    border: none;
+    background-color: #FFFFFF;
+    color: #888888;
+    outline: none;
+}
+
+.input::file-selector-button {
+    border: 1px solid #888888;
+    color: #888888;
+}
+
+.input1::file-selector-button {
+    border-color: #FF0000;
+    color: #FF0000;
+}
+
+.input::file-selector-button,
+.input1::file-selector-button {
+    font-weight: 400;
+    font-size: 18px !important;
+    line-height: 21px !important;
+    outline: none !important;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.resume {
+    padding-left: 9px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+@media (max-width: 500px) {
+    .resume {
+        flex-direction: column;
+        align-items: start;
+        gap:30px;
+    }
+    .errorMessage {
+        left: 45% !important;
+        top: -50px;
+        width: 50% !important;
+        font-size: 14px;
+        height: 48px;
+    }
+    .errorMessage:last-child {
+        left: 45%;
+        text-align: center;
+    }
+}
+@media (max-width:920px){
+    .formControl {
+        margin-top: 30px;
+        max-width: 920px;
+    }
+    .resume {
+        justify-content: flex-start;
+        gap:30px;
+    }
+    .errorMessage {
+        left: 45% !important;
+        top: -50px;
+        width: 50% !important;
+        font-size: 14px;
+        height: 48px;
+    }
+    .errorMessage:last-child {
+        left: 45%;
+        text-align: center;
+    }
+}

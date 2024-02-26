@@ -1,0 +1,41 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.starsItem {
+  display: flex;
+  grid-gap: 15px;
+  padding: 5px 0;
+  margin: 5px 0;
+}
+.starsImg {
+  padding: 0.4% 0 0 0;
+}
+
+.starsText {
+  line-height: 28px;
+  font-size: 20px;
+  max-width: 793px;
+  color: #424242;
+}
+
+.starsText p {
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 500px) {
+  .starsImg {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 920px) {
+  .starsItem {
+    padding: 0 20px;
+  }
+}

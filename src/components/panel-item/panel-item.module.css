@@ -1,0 +1,24 @@
+.content {
+  width: 280px;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  grid-gap: 20px;
+  background-color: #393184;
+  cursor: pointer;
+}
+
+.itemText {
+  font-weight: 400;
+  line-height: 21.13px;
+  color: #ffffff;
+}
+.itemText p{
+  padding: 0;
+  margin: 0;
+}
+
+.content:hover {
+  background-color: #33bee5;
+}

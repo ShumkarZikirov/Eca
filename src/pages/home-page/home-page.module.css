@@ -1,0 +1,165 @@
+/* global style home page */
+.title {
+  color: #393184;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 31px;
+  text-align: center;
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.description {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #424242;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.slider {
+  padding-top: 20px;
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.btnSetUp {
+  text-align: right;
+}
+
+.centralAsia {
+  margin-top: 30px;
+  background-color: #F5F3FB;
+  padding-top: 30px;
+}
+
+/* our Teams */
+.ourTeam {
+  padding-top: 70px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 50px;
+}
+
+.ourTeams .title {
+  margin-top: 40px;
+}
+
+/* ourServices */
+.ourServices {
+  padding-bottom: 40px;
+}
+
+.ourServices .title {
+  margin-bottom: 48px;
+}
+
+/* clients and Partners */
+.clientsAndPartners {
+  background-color: #F1EDFF;
+  padding-top: 20px;
+  padding-bottom: 70px;
+}
+
+.clientsAndPartners .description {
+  width: 650px;
+  margin-bottom: 50px;
+}
+
+
+.btnClientsAndPartners,
+.btnourServices,
+.btnLatesNews {
+  text-align: center;
+  margin-top: 65px;
+}
+
+.swiper {
+  z-index: 4;
+}
+.clientsAndPartners .title {
+  margin-bottom: 34px;
+}
+
+/* lates News */
+.latesNews {
+  margin-top: 40px;
+}
+
+.latesNews .description {
+  width: 450px;
+}
+
+.cardNews {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+/* video */
+.video {
+  margin-top: 40px;
+}
+
+/* contactUs */
+.form {
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+@media (max-width: 920px) {
+  .slider {
+    margin-bottom: 25px;
+  }
+
+  .btnSetUp {
+    text-align: center;
+  }
+
+  .wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .ourTeam {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .clientsAndPartners .description {
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    max-width: 350px;
+    width: 100%;
+  }
+
+  .cardNews {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .latesNews .description {
+    width: 100%;
+  }
+}

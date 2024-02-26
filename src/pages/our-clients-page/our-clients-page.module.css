@@ -1,0 +1,43 @@
+.ourClientsPage {
+    padding-top: 80px;
+}
+
+.title {
+    max-width: 1200px;
+    width: 100%;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #000;
+    margin: 0;
+}
+.block {
+    display: flex;
+    justify-content: space-between;
+    gap: 21px;
+    margin: 93px 0;
+}
+
+@media (max-width: 920px) {
+    .title {
+        max-width: 920px;
+        width: 100%;
+        font-size: 20px;
+    }
+    .block {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .title {
+        max-width: 500px;
+        width: 100%;
+        font-size: 20px;
+    }
+    .block {
+        flex-direction: column;
+        align-items: center;
+    }
+}

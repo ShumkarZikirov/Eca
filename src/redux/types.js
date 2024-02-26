@@ -1,0 +1,53 @@
+// modal and toggle
+export const TOGGLE_MENU_ITEM = 'TOGGLE_MENU_ITEM';
+export const SHOW_MENU_DROPDOWN = 'SHOW_MENU_DROPDOWN';
+export const HIDE_MENU_DROPDOWN = 'HIDE_MENU_DROPDOWN';
+export const TOGGLE_DRAWER = 'TOGGLE_DRAWER';
+export const TOGGLE_PANEL_SERVICES = 'TOGGLE_PANEL_SERVICES'
+export const TOGGLE_PANEL_ABOUT = 'TOGGLE_PANEL_ABOUT'
+export const TOGGLE_PANEL_CLIENT = 'TOGGLE_PANEL_CLIENT'
+
+// loading 
+export const LOADING = 'LOADING';
+
+// request
+//category
+export const GET_CATEGORY_LIST = 'GET_CATEGORY_LIST';
+export const GET_CATEGORY_ITEM = 'GET_CATEGORY_ITEM';
+
+// contact
+export const MESSAGE_SUCCESS_RESUME = "MESSAGE_SUCCESS_RESUME";
+
+// project
+export const GET_PROJECT_ITEM_YEAR = 'GET_PROJECT_ITEM_YEAR'
+export const GET_PROJECT_LIST = 'GET_PROJECT_LIST'
+export const GET_PROJECT_ITEM_SECTOR = 'GET_PROJECT_ITEM_SECTOR'
+export const GET_PROJECT_ITEM_SEARCH = 'GET_PROJECT_ITEM_SEARCH'
+export const GET_PROJECT_ITEM_ID = 'GET_PROJECT_ITEM_ID'
+
+
+// news
+export const GET_NEWS_LIST = 'GET_NEWS_LIST'
+export const GET_NEWS_LATES = 'GET_NEWS_LATES'
+export const GET_NEWS_IMAGE_ID = 'GET_NEWS_IMAGE_ID'
+export const GET_NEWS_DETAIL = 'GET_NEWS_DETAIL'
+export const LOADING_NEWS = 'LOADING_NEWS'
+export const FILTER_NEWS_YEAR = 'FILTER_NEWS_YEAR'
+
+
+
+//clients
+export const GET_CLIENT_CATEGORY_LIST = 'GET_CLIENT_CATEGORY_LIST'
+export const GET_CLIENT_CATEGORY_ID = 'GET_CLIENT_CATEGORY_ID'
+
+// members
+export const GET_MEMBER_LIST = 'GET_MEMBER_LIST'
+
+// langauge
+export const CHANGE_LANGUAGE = "CHANGE_LANGUAGE";
+
+// loading 
+export const LOADING_CATEGORY = "LOADING_CATEGORY"
+
+// videos
+export const GET_VIDEOS = "GET_VIDEOS";

@@ -1,0 +1,52 @@
+.info {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	width: 85%;
+}
+.info span {
+	color: #393184;
+	font-weight: 600;
+}
+h1,
+h4,
+p {
+	margin: 0;
+}
+.title {
+	font-size: 26px;
+	color: #ef7f1a;
+	font-weight: 600;
+}
+.stepTitle {
+	font-size: 23px;
+	color: #393184;
+	font-weight: 600;
+}
+.text {
+	font-size: 20px;
+	line-height: 1.4;
+}
+
+@media (max-width:500px){
+	.info {
+		display: flex;
+		flex-direction: column;
+		gap: 30px;
+		width: 100%;
+	}
+	.title {
+		font-size: 26px;
+	}
+	.stepTitle {
+		font-size: 20px;
+		font-weight: 600;
+	}
+	.text {
+		font-size: 20px;
+	}
+	.text span{
+		font-weight: 600;
+	}
+	
+}

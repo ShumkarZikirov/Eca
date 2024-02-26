@@ -1,0 +1,49 @@
+.mediaImage {
+	position: relative;
+	height: 600px;
+	overflow: hidden;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.mediaImage img,
+.title {
+	position: absolute;
+}
+
+.mediaImage img {
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 2;
+	height: 100%;
+	transform: scale(1.1);
+}
+
+.title {
+	width: 100%;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 3;
+	font-size: 84px;
+	margin: 0;
+	line-height: 99px;
+	font-weight: 800;
+	color: #fff;
+	text-align: center;
+}
+
+@media (max-width: 500px) {
+	.mediaImage {
+		min-height: 350px;
+		height: 100%;
+	}
+	.mediaImage img {
+		object-fit: cover;
+	}
+	.title {
+		font-size: 30px;
+		line-height: 35px;
+	}
+}

@@ -1,0 +1,9 @@
+.swiperImg{
+	width: 70% !important;
+	margin: auto;
+}
+@media (max-width:500px){
+	.swiperImg{
+		width: 80% !important;
+	}
+}

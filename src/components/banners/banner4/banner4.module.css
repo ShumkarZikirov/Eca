@@ -1,0 +1,150 @@
+.Banner4 {
+	position: relative;
+}
+.img {
+	width: 100%;
+}
+.icon {
+	position: absolute;
+	top: 13px;
+	left: 7px;
+	max-width: 129px;
+	max-height: 42px;
+}
+.info {
+	position: absolute;
+	max-width: 500px;
+	left: 10%;
+	top: 20%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.info h2 {
+	font-size: 36px;
+	color: #393184;
+	text-align: left;
+}
+.info p {
+	font-size: 24px;
+	line-height: 1.4;
+	text-align: left;
+}
+.btn button {
+	float: left;
+	padding: 10px 20px;
+	margin-top: 30px;
+}
+@media (max-width: 850px) {
+	.icon {
+		max-width: 100px;
+		max-height: 35px;
+	}
+	.info {
+		max-width: 500px;
+		left: 10%;
+		top: 25%;
+	}
+	.info h2 {
+		font-size: 30px;
+	}
+	.info p {
+		font-size: 18px;
+	}
+	.btn button {
+		font-size: 16px;
+		margin-top: 5px;
+	}
+}
+@media (max-width: 650px) {
+	.icon {
+		max-width: 90px;
+		max-height: 30px;
+	}
+	.info {
+		max-width: 400px;
+		left: 10%;
+		top: 25%;
+	}
+	.info h2 {
+		font-size: 27px;
+	}
+	.info p {
+		font-size: 16px;
+	}
+	.btn button {
+		font-size: 14px;
+		margin-top: 5px;
+	}
+}
+@media (max-width: 500px) {
+	.icon {
+		top: 13px;
+		left: 7px;
+		max-width: 35px;
+		max-height: 11px;
+	}
+	.info {
+		max-width: 500px;
+		left: 10%;
+		top: 10%;
+	}
+	.info h2 {
+		font-size: 20px;
+	}
+	.info p {
+		font-size: 14px;
+		margin: 0 0 10px 0;
+		max-width: 289px;
+		font-weight: 400;
+	}
+	.btn button {
+		float: left;
+		padding: 0 10px;
+		width: 107px;
+		min-height: 39px;
+		font-size: 12px;
+	}
+}
+@media (max-width: 370px) {
+	.info h2 {
+		font-size: 19px;
+		margin: 10px 0 5px 0;
+	}
+	.info p {
+		font-size: 12px;
+		margin: 0 0 10px 0;
+		max-width: 249px;
+	}
+	.btn button {
+		width: 97px;
+		min-height: 29px;
+		font-size: 11px;
+	}
+}
+@media (max-width: 300px) {
+	.icon {
+		top: 10px;
+		left: 7px;
+		max-width: 30px;
+		max-height: 8px;
+	}
+	.info {
+		left: 10%;
+		top: 10%;
+	}
+	.info h2 {
+		font-size: 17px;
+		margin: 10px 0 5px 0;
+	}
+	.info p {
+		font-size: 10px;
+		margin: 0 0 10px 0;
+		max-width: 249px;
+	}
+	.btn button {
+		width: 97px;
+		min-height: 29px;
+		font-size: 8px;
+	}
+}
